@@ -44,10 +44,9 @@ winget source update -n winget
 call :winget_retry Microsoft.Teams remove
 
 call :winget_retry 9NKSQGP7F2NH install msstore
-call :winget_retry 9PJSDV0VPK04 install msstore
-call :winget_retry 9PNSJCLXDZ0V install msstore
 
 call :winget_retry Brave.Brave install winget
+call :winget_retry Google.AndroidStudio install winget
 call :winget_retry TheDocumentFoundation.LibreOffice install winget
 call :winget_retry Microsoft.VisualStudioCode install winget
 call :winget_retry Ultimaker.Cura install winget
@@ -68,6 +67,9 @@ call :winget_retry KDE.Krita install winget
 call :winget_retry aria2.aria2 install winget
 call :winget_retry Adobe.Acrobat.Reader.64-bit install winget
 call :winget_retry Mozilla.Thunderbird install winget
+call :winget_retry Audacity.Audacity install winget
+call :winget_retry Bitwarden.Bitwarden install winget
+call :winget_retry GIMP.GIMP.3 install winget
 
 :: WSL & Rancher
 wsl --install
