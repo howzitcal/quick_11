@@ -71,6 +71,7 @@ call :winget_retry Audacity.Audacity install winget
 call :winget_retry Bitwarden.Bitwarden install winget
 call :winget_retry GIMP.GIMP.3 install winget
 call :winget_retry WinSCP.WinSCP install winget
+call :winget_retry Microsoft.PowerToys install winget
 
 :: WSL & Rancher
 wsl --install
