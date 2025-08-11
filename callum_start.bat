@@ -45,13 +45,13 @@ call :winget_retry Microsoft.Teams remove
 
 call :winget_retry 9NKSQGP7F2NH install msstore
 
-call :winget_retry Brave.Brave install winget
+call :winget_retry Google.Chrome install winget
 call :winget_retry Google.AndroidStudio install winget
 call :winget_retry TheDocumentFoundation.LibreOffice install winget
 call :winget_retry Microsoft.VisualStudioCode install winget
 call :winget_retry Ultimaker.Cura install winget
 call :winget_retry Google.GoogleDrive install winget
-call :winget_retry Obsidian.Obsidian install winget
+call :winget_retry Notion.Notion install winget
 call :winget_retry VideoLAN.VLC install winget
 call :winget_retry Valve.Steam install winget
 call :winget_retry JGraph.Draw install winget
